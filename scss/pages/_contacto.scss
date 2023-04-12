@@ -1,0 +1,93 @@
+.contacto-cont{
+    .cont-tit{
+        font-size: 72px;
+        font-weight: 800;
+        text-align: center;
+    }
+    .cont-parra{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+.formulario{
+    display: grid;
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #2B3035;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contactanos contactanos"
+                         "nombre            email"
+                         "tel               asunto"
+                         "mensaje           mensaje"
+                         "button            button";
+}
+.formulario button{
+    grid-area: button;
+}
+.formulario h2{
+    grid-area: contactanos;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+.formulario label{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+}
+
+.formulario label input , .formulario label textarea{
+    background-color: #2B3035;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+
+.formulario label:nth-child(2){
+    grid-area: nombre;
+}
+.formulario label:nth-child(3){
+    grid-area: email;
+}
+.formulario label:nth-child(4){
+    grid-area: tel;
+}
+.formulario label:nth-child(5){
+    grid-area: asunto;
+}
+.formulario label:nth-child(6){
+    grid-area: mensaje;
+}
+.formulario label:nth-child(7){
+    grid-area: button;
+}
+.formulario button{
+    grid-area: button;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+@media(max-width:750px){
+    .formulario{
+        width: auto;
+        margin: 40px auto;
+        border-radius: none;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "contactanos"
+                            "nombre"
+                            "email"
+                            "tel"
+                            "asunto"
+                            "mensaje"
+                            "button";
+        }
+}

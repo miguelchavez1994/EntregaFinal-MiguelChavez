@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cuerpo {
+  font-family: "Roboto", sans-serif;
+}
+
+.nave {
+  background-color: #0F172A;
+}
+.nave ul {
+  list-style: none;
+}
+.nave ul li a {
+  padding: 20px 20px 0px 20px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.nave ul .logo-plan {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.portada {
+  background-color: #0F172A;
+}
+.portada .p-cont1 {
+  padding: 40px 150px;
+}
+.portada .p-cont1 .h1-tit {
+  color: white;
+  font-size: 72px;
+  font-weight: 800;
+}
+.portada .p-cont1 .h1-p {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+}
+.portada .p-cont1 .h1-bt {
+  font-size: 24px;
+  background-color: transparent;
+  padding: 15px;
+  margin-top: 10px;
+  width: 230px;
+  color: white;
+  border: 5px solid #fff;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.portada .p-cont1 .h1-bt:hover {
+  width: 235px;
+  border: 6px solid #aec4f9;
+}
+.portada .p-cont2 {
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+.portada .p-cont2 .p-art2 .port-img2 {
+  width: 100%;
+  object-fit: contain;
+  border: solid 3px;
+  border-radius: 20px;
+  border-color: #979696;
+}
+
+@media (max-width: 851px) {
+  .portada .p-cont1 {
+    padding: 40px;
+    justify-items: center;
+  }
+  .portada .p-cont1 .h1-tit {
+    font-size: 58px;
+    text-align: center;
+  }
+  .portada .p-cont1 .h1-p {
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .portada .p-cont1 .h1-bt {
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+  }
+}
+@media (max-width: 1468px) {
+  .portada .p-cont1, .p-cont2 {
+    padding: 60px;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .portada .p-cont1, .p-cont2 {
+    padding: 60px;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+.sec-1, .sec-2 {
+  margin-top: 50px;
+}
+.sec-1 .tit-2, .sec-2 .tit-2 {
+  font-size: 54px;
+  font-weight: 800;
+}
+.sec-1 .cont-1, .sec-2 .cont-1 {
+  width: 373px;
+  height: 252px;
+  border: solid 5px #2563EB;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 22px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 0px 6px rgba(0, 0, 0, 0.07);
+}
+.sec-1 .cont-1 .tit-3, .sec-2 .cont-1 .tit-3 {
+  font-size: 48px;
+  font-weight: 800;
+  transition: 0.5s;
+}
+.sec-1 .cont-1 .tit-3:hover, .sec-2 .cont-1 .tit-3:hover {
+  font-size: 54px;
+}
+.sec-1 .cont-1 .parra-3, .sec-2 .cont-1 .parra-3 {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.sec-1 .cont-1 .parra-3-2, .sec-2 .cont-1 .parra-3-2 {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.sec-1 .destacado-t, .sec-2 .destacado-t {
+  margin: 30px;
+  background-color: white;
+  width: 350px;
+  height: 460px;
+  padding: 20px;
+  transition: 0.5s;
+  border: solid 6px #2563EB;
+  border-radius: 22px;
+}
+.sec-1 .destacado-t:hover, .sec-2 .destacado-t:hover {
+  background-color: #aec4f9;
+  border: solid 8px #0F172A;
+}
+.sec-1 .destacado-t img, .sec-2 .destacado-t img {
+  margin-top: 8px;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+.sec-1 .destacado-t h3, .sec-2 .destacado-t h3 {
+  font-size: 24px;
+}
+.sec-1 .destacado-t .t-button, .sec-2 .destacado-t .t-button {
+  padding: 8px;
+  margin-top: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: #2563EB;
+  font-size: 16px;
+  color: white;
+}
+.sec-1 .destacado-t .t-button:active, .sec-2 .destacado-t .t-button:active {
+  background-color: #aec4f9;
+  box-shadow: 0 5px #0F172A;
+  transform: translateY(4px);
+}
+
+.pie-cont-1 {
+  padding: 30px;
+}
+.pie-cont-1 .footer-titu {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+.pie-cont-1 .red-social-p {
+  padding: 25px;
+}
+.pie-cont-1 .red-social-p .link-red {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+.pie-cont-1 .red-social-p .link-red:hover {
+  font-size: 20px;
+  color: #2563EB;
+}
+
+.pie {
+  background-color: #0F172A;
+}
+.pie .pie-contenedor {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.pie .pie-columnas {
+  margin-top: 25px;
+  width: 33%;
+  padding: 15px;
+}
+.pie .pie-columnas h3 {
+  font-size: 20px;
+}
+.pie .pie-p {
+  margin-top: 30px;
+}
+
+.servi-sec-2 {
+  background-color: #aec4f9;
+  padding: 30px;
+}
+.servi-sec-2 .tit-2 {
+  color: #0F172A;
+}
+
+.formulario {
+  display: grid;
+  width: 700px;
+  margin: 40px auto;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #2B3035;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "contactanos contactanos" "nombre            email" "tel               asunto" "mensaje           mensaje" "button            button";
+}
+
+.formulario button {
+  grid-area: button;
+}
+
+.formulario h2 {
+  grid-area: contactanos;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.formulario label {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+}
+
+.formulario label input, .formulario label textarea {
+  background-color: #2B3035;
+  border: none;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  color: white;
+}
+
+.formulario label:nth-child(2) {
+  grid-area: nombre;
+}
+
+.formulario label:nth-child(3) {
+  grid-area: email;
+}
+
+.formulario label:nth-child(4) {
+  grid-area: tel;
+}
+
+.formulario label:nth-child(5) {
+  grid-area: asunto;
+}
+
+.formulario label:nth-child(6) {
+  grid-area: mensaje;
+}
+
+.formulario label:nth-child(7) {
+  grid-area: button;
+}
+
+.formulario button {
+  grid-area: button;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+@media (max-width: 750px) {
+  .formulario {
+    width: auto;
+    margin: 40px auto;
+    border-radius: none;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "contactanos" "nombre" "email" "tel" "asunto" "mensaje" "button";
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
