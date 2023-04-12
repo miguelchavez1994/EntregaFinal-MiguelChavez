@@ -1,4 +1,6 @@
 .portada{
+    justify-content: center;
+    align-items: center;
     background-color: $bg-color;
     .p-cont1{
         padding: 40px 150px;
@@ -29,28 +31,58 @@
             }
         }
     }
-    .p-cont2{
-        padding: 20px;
+    .p-art2{
+        position: inherit;
         width: 500px;
-        height: 500px;
-        
-        .p-art2{
-            .port-img2{
-                width:100%;
-                object-fit:contain;
-                border: solid 3px;
-                border-radius: 20px;
-                border-color: #979696;
-            }
+        top: 50%;
+
+        .port-img2{
+            width: 100%;
+            top: 50%;
+            object-fit:cover;
+            border-radius: 20px;
         }
     }
 }
 
+
+
+@media (max-width:1468px){
+    .portada .p-cont1 , .p-cont2{
+        padding: 60px;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+}
+@media (max-width:1401px){
+    .portada .p-cont1{
+        padding: 40px;
+        justify-items: center; 
+        .h1-tit{
+            text-align: center;
+        }
+        .h1-p{
+            text-align: center;
+        }
+    }
+    .p-cont2{
+        width: 100%;
+        justify-content: center;
+    }   
+}
+@media (max-width:1200px){
+    .portada .p-cont1 , .p-cont2{
+        padding: 60px;
+        justify-items: center;
+        justify-content: center;
+    }
+ 
+}
 @media (max-width:851px){
     .portada .p-cont1{
         padding: 40px;
-        justify-items: center;
-        
+        justify-items: center; 
         .h1-tit{
             font-size: 58px;
             text-align: center;
@@ -66,22 +98,29 @@
             width: 180px;
             text-align: center;
         }
-    }
-    
+    }   
 }
-@media (max-width:1468px){
-    .portada .p-cont1 , .p-cont2{
+
+@media (max-width:550px){
+    .portada .p-cont1{
+        align-items: center;
         padding: 60px;
-        justify-items: center;
-        justify-content: center;
+        .h1-tit{
+            font-size: 48px;
+            text-align: center;
+        }
+        .h1-p{
+            font-size: 16px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .h1-bt{
+            display: block;
+            font-size: 18px;
+            padding: 10px;
+            width: 180px;
+            justify-self: center;
+            
+        }
     }
-    
-}
-@media (max-width:1200px){
-    .portada .p-cont1 , .p-cont2{
-        padding: 60px;
-        justify-items: center;
-        justify-content: center;
-    }
- 
 }

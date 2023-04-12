@@ -10,8 +10,17 @@
 .navegador {
   background-color: #0F172A;
 }
+.navegador .navbar-brand {
+  font-size: 28px;
+}
+.navegador .pag-cont ul li .nav-link {
+  font-size: 20px;
+  padding: 10px 15px;
+}
 
 .portada {
+  justify-content: center;
+  align-items: center;
   background-color: #0F172A;
 }
 .portada .p-cont1 {
@@ -42,19 +51,48 @@
   width: 235px;
   border: 6px solid #aec4f9;
 }
-.portada .p-cont2 {
-  padding: 20px;
+.portada .p-art2 {
+  position: inherit;
   width: 500px;
-  height: 500px;
+  top: 50%;
 }
-.portada .p-cont2 .p-art2 .port-img2 {
+.portada .p-art2 .port-img2 {
   width: 100%;
-  object-fit: contain;
-  border: solid 3px;
+  top: 50%;
+  object-fit: cover;
   border-radius: 20px;
-  border-color: #979696;
 }
 
+@media (max-width: 1468px) {
+  .portada .p-cont1, .p-cont2 {
+    padding: 60px;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1401px) {
+  .portada .p-cont1 {
+    padding: 40px;
+    justify-items: center;
+  }
+  .portada .p-cont1 .h1-tit {
+    text-align: center;
+  }
+  .portada .p-cont1 .h1-p {
+    text-align: center;
+  }
+  .p-cont2 {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 1200px) {
+  .portada .p-cont1, .p-cont2 {
+    padding: 60px;
+    justify-items: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 851px) {
   .portada .p-cont1 {
     padding: 40px;
@@ -76,18 +114,26 @@
     text-align: center;
   }
 }
-@media (max-width: 1468px) {
-  .portada .p-cont1, .p-cont2 {
+@media (max-width: 550px) {
+  .portada .p-cont1 {
+    align-items: center;
     padding: 60px;
-    justify-items: center;
-    justify-content: center;
   }
-}
-@media (max-width: 1200px) {
-  .portada .p-cont1, .p-cont2 {
-    padding: 60px;
-    justify-items: center;
-    justify-content: center;
+  .portada .p-cont1 .h1-tit {
+    font-size: 48px;
+    text-align: center;
+  }
+  .portada .p-cont1 .h1-p {
+    font-size: 16px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .portada .p-cont1 .h1-bt {
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    width: 180px;
+    justify-self: center;
   }
 }
 .sec-1, .sec-2 {
@@ -166,6 +212,18 @@
   transform: translateY(4px);
 }
 
+@media (max-width: 1656px) {
+  .sec-1 .destacado-t, .sec-2 .destacado-t {
+    height: 400px;
+    width: 300px;
+  }
+}
+@media (max-width: 1456px) {
+  .sec-1 .destacado-t, .sec-2 .destacado-t {
+    height: 400px;
+    width: 300px;
+  }
+}
 .pie-cont-1 {
   padding: 30px;
 }
