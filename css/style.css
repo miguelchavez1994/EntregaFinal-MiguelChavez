@@ -7,22 +7,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-.nave {
+.navegador {
   background-color: #0F172A;
-}
-.nave ul {
-  list-style: none;
-}
-.nave ul li a {
-  padding: 20px 20px 0px 20px;
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-}
-.nave ul .logo-plan {
-  font-size: 48px;
-  font-weight: 800;
 }
 
 .portada {
@@ -230,6 +216,16 @@
 }
 .servi-sec-2 .tit-2 {
   color: #0F172A;
+}
+
+.contacto-cont .cont-tit {
+  font-size: 72px;
+  font-weight: 800;
+  text-align: center;
+}
+.contacto-cont .cont-parra {
+  font-size: 24px;
+  text-align: center;
 }
 
 .formulario {

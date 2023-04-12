@@ -15,16 +15,38 @@
 </head>
 <body class="cuerpo">
   <header>
-    <nav class="nave d-flex flex-wrap justify-content-between align-items-center">
-      <ul class="d-flex flex-column flex-sm-row align-items-center">
-        <li><a class="d-block logo-plan" href="./index.html">Plan-A</a></li> 
-        <li><a class="d-block" href="./pages/planea-ya.html">Escoge tu Plan-A</a></li>
-        <li><a class="d-block" href="./pages/servicios.html">Servicios</a></li>
-        <li><a class="d-block" href="./pages/nosotros.html">Nosotros</a></li>
-        <li><a class="d-block" href="./pages/contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark" data-bs-theme="dark">
+      <div class="navegador container-fluid">
+        <a class="navbar-brand" href="#">Plan-A</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Plan A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/planea-ya.html">Escoge tu Plan A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
-    
+
     <section class="portada flex row">
       <div class="p-cont1 flex col-lg-12-justify-content-center col-xl-7 align-items-start flex-column">
         <h1 class="h1-tit col-text-centre col-md-text-start">Planea tu evento <br>Fácil y al instante</h1>
