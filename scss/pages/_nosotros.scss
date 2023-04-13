@@ -1,0 +1,28 @@
+.nos-portada{
+    background-color: $bg-color;
+    color: white;
+    padding: 40px;
+    h1{
+        font-size: 72px;
+        text-align: center;
+    }
+    p{
+        font-size: 34px;
+        text-align: center;
+    }
+}
+.nos-sec1 , .nos-sec2{
+    background-color: $bg-color3;
+    padding: 40px;
+    color: white;
+    h2{
+        font-size: 72px;
+        text-align: center;
+    }
+    p{
+        font-size: 24px;
+        text-align: center;
+
+    }
+}
+

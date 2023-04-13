@@ -16,7 +16,7 @@
     margin: 40px auto;
     border-radius: 5px;
     padding: 20px;
-    background-color: #2B3035;
+    background-color: $bg-color;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "contactanos contactanos"
                          "nombre            email"
@@ -41,7 +41,7 @@
 }
 
 .formulario label input , .formulario label textarea{
-    background-color: #2B3035;
+    background-color: $bg-color2;
     border: none;
     border-bottom: 1px solid white;
     padding: 10px;

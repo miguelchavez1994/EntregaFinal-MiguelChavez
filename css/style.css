@@ -247,7 +247,11 @@
     width: 200px;
   }
   .sec-1 .destacado-t img, .sec-2 .destacado-t img {
-    height: 70%;
+    height: 68%;
+  }
+  .sec-1 .destacado-t h3, .sec-2 .destacado-t h3 {
+    font-size: 20px;
+    text-align: center;
   }
 }
 @media (max-width: 556px) {
@@ -259,10 +263,6 @@
   }
   .sec-1 .destacado-t img, .sec-2 .destacado-t img {
     height: 67%;
-  }
-  .sec-1 .destacado-t h3, .sec-2 .destacado-t h3 {
-    font-size: 20px;
-    text-align: center;
   }
 }
 .pie-cont-1 {
@@ -317,6 +317,34 @@
   color: #0F172A;
 }
 
+.nos-portada {
+  background-color: #0F172A;
+  color: white;
+  padding: 40px;
+}
+.nos-portada h1 {
+  font-size: 72px;
+  text-align: center;
+}
+.nos-portada p {
+  font-size: 34px;
+  text-align: center;
+}
+
+.nos-sec1, .nos-sec2 {
+  background-color: #2563EB;
+  padding: 40px;
+  color: white;
+}
+.nos-sec1 h2, .nos-sec2 h2 {
+  font-size: 72px;
+  text-align: center;
+}
+.nos-sec1 p, .nos-sec2 p {
+  font-size: 24px;
+  text-align: center;
+}
+
 .contacto-cont .cont-tit {
   font-size: 72px;
   font-weight: 800;
@@ -333,7 +361,7 @@
   margin: 40px auto;
   border-radius: 5px;
   padding: 20px;
-  background-color: #2B3035;
+  background-color: #0F172A;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "contactanos contactanos" "nombre            email" "tel               asunto" "mensaje           mensaje" "button            button";
 }
@@ -357,7 +385,7 @@
 }
 
 .formulario label input, .formulario label textarea {
-  background-color: #2B3035;
+  background-color: #aec4f9;
   border: none;
   border-bottom: 1px solid white;
   padding: 10px;
