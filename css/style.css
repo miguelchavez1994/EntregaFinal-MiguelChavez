@@ -27,6 +27,8 @@
   padding: 40px 150px;
 }
 .portada .p-cont1 .h1-tit {
+  display: block;
+  width: 100%;
   color: white;
   font-size: 72px;
   font-weight: 800;
@@ -307,6 +309,18 @@
 }
 .pie .pie-p {
   margin-top: 30px;
+}
+
+/*.ser-cont{
+    height: 100%;
+}*/
+.servi-sec1 .sec-1div {
+  height: 600px;
+}
+.servi-sec1 .sec-1div servi-matri-cont {
+  width: 50%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .servi-sec-2 {
