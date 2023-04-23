@@ -52,15 +52,15 @@
 @media (max-width:1468px){
     .portada .p-cont1 , .p-cont2{
         padding: 60px;
-        justify-items: center;
-        justify-content: center;
+        /*justify-items: center;
+        justify-content: center;*/
     }
     
 }
 @media (max-width:1401px){
     .portada .p-cont1{
         padding: 40px;
-        justify-items: center; 
+        /*justify-items: center; */
         .h1-tit{
             text-align: center;
         }
@@ -70,14 +70,14 @@
     }
     .p-cont2{
         width: 100%;
-        justify-content: center;
+        /*justify-content: center;*/
     }   
 }
 @media (max-width:1200px){
     .portada .p-cont1 , .p-cont2{
         padding: 60px;
-        justify-items: center;
-        justify-content: center;
+        /*justify-items: center;
+        justify-content: center;*/
     }
     .portada .p-art2{
         margin-bottom: 40px;
