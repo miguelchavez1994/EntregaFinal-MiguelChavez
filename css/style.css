@@ -245,8 +245,11 @@
   }
 }
 @media (max-width: 736px) {
+  .sec-1, .sec-2 {
+    padding: 5%;
+  }
   .sec-1 .tit-2, .sec-2 .tit-2 {
-    font-size: 44px;
+    font-size: 40px;
   }
   .sec-1 .destacado-t, .sec-2 .destacado-t {
     margin: 10px;
@@ -355,81 +358,6 @@
   border: 6px solid #aec4f9;
 }
 
-/*.servi-sec2{
-    margin-top: 40px;
-    .tit-2{
-        font-size: 54px;
-        font-weight: 800;
-    }
-    .cont-1{
-        @include sizes(373px,252px);
-        border: solid 5px $bg-color3;
-        padding: 20px;
-        background-color: transparent;
-        border-radius: 22px;
-        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 0px 6px rgba(0, 0, 0, 0.07);
-        .tit-3{
-            font-size: 48px;
-            font-weight: 800;
-            transition: 0.5s;
-            &:hover{
-                font-size: 54px;
-            }
-        }
-        .parra-3{
-            margin-top: 40px;
-            font-size: 24px;
-            font-weight: 800;
-        }
-        .parra-3-2{
-            margin-top: 10px;
-            font-size: 24px;
-            font-weight: 500;
-        }
-    }
-    .destacado-t{
-        color: black;
-        margin: 30px;
-        background-color: white;
-        width: 350px;
-        height: 460px;
-        padding: 20px;
-        transition: 0.5s;
-        border: solid 6px $bg-color3;
-        border-radius: 22px;
-        &:hover{
-            background-color: $bg-color2;
-            border: solid 8px $bg-color;
-         }
-        img{
-        margin-top: 8px;
-        @include sizes(100%,75%);
-        object-fit: cover;
-        }
-        h3{
-            font-size: 24px;
-         }
-        .t-button{
-        padding: 8px;
-        margin-top: 15px;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        outline: none;
-        border: none;
-        border-radius: 10px;
-        background-color: $bg-color3;
-        font-size: 16px;
-        color: white;
-        &:active {
-            background-color: $bg-color2;
-            box-shadow: 0 5px $bg-color;
-            transform: translateY(4px);
-            }
-        }    
-    }
-}
-*/
 /*Inicio Media*/
 @media (max-width: 1550px) {
   .servi-sec1 {
